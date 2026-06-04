@@ -17,3 +17,4 @@ app.yaml
 
 # Databricks bundle state
 .databricks/
+.cortex/
