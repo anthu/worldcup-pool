@@ -1,0 +1,21 @@
+name: worldcup_scoring
+version: '1.0.0'
+
+profile: worldcup
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  worldcup_scoring:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table

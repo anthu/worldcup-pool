@@ -1,0 +1,49 @@
+group_key,team_code,team_name
+GROUP_A,MEX,Mexico
+GROUP_A,RSA,South Africa
+GROUP_A,KOR,South Korea
+GROUP_A,CZE,Czech Republic
+GROUP_B,CAN,Canada
+GROUP_B,BIH,Bosnia and Herzegovina
+GROUP_B,QAT,Qatar
+GROUP_B,SUI,Switzerland
+GROUP_C,BRA,Brazil
+GROUP_C,MAR,Morocco
+GROUP_C,HAI,Haiti
+GROUP_C,SCO,Scotland
+GROUP_D,USA,United States
+GROUP_D,PAR,Paraguay
+GROUP_D,AUS,Australia
+GROUP_D,TUR,Turkey
+GROUP_E,GER,Germany
+GROUP_E,CUW,Curaçao
+GROUP_E,CIV,Ivory Coast
+GROUP_E,ECU,Ecuador
+GROUP_F,NED,Netherlands
+GROUP_F,JPN,Japan
+GROUP_F,SWE,Sweden
+GROUP_F,TUN,Tunisia
+GROUP_G,BEL,Belgium
+GROUP_G,EGY,Egypt
+GROUP_G,IRN,Iran
+GROUP_G,NZL,New Zealand
+GROUP_H,ESP,Spain
+GROUP_H,CPV,Cape Verde
+GROUP_H,KSA,Saudi Arabia
+GROUP_H,URU,Uruguay
+GROUP_I,FRA,France
+GROUP_I,SEN,Senegal
+GROUP_I,IRQ,Iraq
+GROUP_I,NOR,Norway
+GROUP_J,ARG,Argentina
+GROUP_J,ALG,Algeria
+GROUP_J,AUT,Austria
+GROUP_J,JOR,Jordan
+GROUP_K,POR,Portugal
+GROUP_K,COD,DR Congo
+GROUP_K,UZB,Uzbekistan
+GROUP_K,COL,Colombia
+GROUP_L,ENG,England
+GROUP_L,CRO,Croatia
+GROUP_L,GHA,Ghana
+GROUP_L,PAN,Panama

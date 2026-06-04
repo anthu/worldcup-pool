@@ -975,15 +975,10 @@ export default function App() {
       <header className="hero">
         <div className="hero-inner">
           <div className="powered-by-bar">
-            <span className="powered-by-label">Powered by</span>
+            <span className="powered-by-label">POWERED BY</span>
             <span className="powered-by-product">
-              <img className="powered-by-icon" src="/logos/lakebase.svg" alt="" />
-              Lakebase
-            </span>
-            <span className="powered-by-sep">&</span>
-            <span className="powered-by-product">
-              <img className="powered-by-icon" src="/logos/databricks-apps.svg" alt="" />
-              Databricks Apps
+              <img src="/snowflake-logo.svg" alt="Snowflake" width="22" height="22" style={{marginRight: '6px', verticalAlign: 'middle'}} />
+              Snowflake
             </span>
           </div>
           <div className="hero-top">

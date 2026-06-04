@@ -1,0 +1,54 @@
+version: 2
+
+sources:
+  - name: app
+    description: Consumer-side app hybrid tables (predictions entered by users)
+    schema: "{{ var('app_schema', 'APP') }}"
+    tables:
+      - name: match_predictions
+        description: Per-user, per-match score predictions
+        columns:
+          - name: user_id
+          - name: match_id
+          - name: home_goals
+          - name: away_goals
+          - name: advance_team_code
+
+      - name: tournament_predictions
+        description: Per-user tournament winner + top scorer picks
+        columns:
+          - name: user_id
+          - name: tournament_winner_team_code
+          - name: top_scorer_player_name
+          - name: notes_json
+
+      - name: user_profiles
+        description: User display names and avatars
+        columns:
+          - name: user_id
+          - name: display_name
+          - name: profile_picture
+
+  - name: provider
+    description: Provider-shared match data (read-only views from the share)
+    schema: "{{ var('provider_schema', 'PROVIDER') }}"
+    tables:
+      - name: matches
+        description: All World Cup matches with scores and goal events
+        columns:
+          - name: id
+          - name: external_match_id
+          - name: competition_code
+          - name: stage
+          - name: matchday
+          - name: group_key
+          - name: home_team_code
+          - name: away_team_code
+          - name: home_team_name
+          - name: away_team_name
+          - name: kickoff_utc
+          - name: status
+          - name: home_score
+          - name: away_score
+          - name: winner_team_code
+          - name: goal_events
